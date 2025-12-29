@@ -20,15 +20,22 @@ pre {
 
 .home-info .entry-header {
     display: inline-block;
-    height: 100px;
-    width: 100px;
+    height: 128px;
+    width: 128px;
+    align-self: center;
     background: url("/me.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px #00000080;
 }
 
 .home-info .entry-content {
-    display: inline-flex;
+    display: inline-block;
+    width: auto;
+}
+
+.home-info .entry-footer {
+    display: inline-block;
+    width: auto;
 }
