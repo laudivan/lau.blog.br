@@ -1,9 +1,10 @@
-baseURL: "https://tiolau.blog/"
-title: "∼{L4u}.blog"
+baseURL: "https://lau.blog.br/"
+title: "∼{L4u}.blog.br"
 theme: "PaperMod"
 defaultContentLanguage: "🇧🇷"
 defaultContentLanguageInSubdir: true
 disableDefaultLanguageRedirect: false
+googleAnalytics: ""
 languages:
   🇺🇸:
     disabled: false
@@ -11,7 +12,7 @@ languages:
     languageCode: "en-US"
     languageDirection: "ltr"
     languageName: "English"
-    title: "∼{l4u}.blog"
+    title: "∼{l4u}.blog.br"
     menus:
       main:
         - name: Categories
@@ -21,7 +22,7 @@ languages:
     params:
       homeInfoParams:
         Title: Hi there 👋🏾, welcome to my blog!
-        Content: I am Laudivan, lovely called as Tio Lau (uncle Lau). If you wanna know a little bit about me I recorded here must of my soul as chronicles, poetry, thoughts and draws. I hope you enjoy It! 🫶🏾
+        Content: I am Laudivan, lovely called as Tio Lau (uncle Lau). I've recorded here must of my soul as chronicles, poetry, thoughts and draws. I hope you enjoy It! 🫶🏾
       subtitle: "A place for my thoughts, archievements and more..."
       keywords: ["blog", "PaperMod"]
       dateFormat: "January 2, 2006"
@@ -31,7 +32,7 @@ languages:
     languageCode: "pt-BR"
     languageDirection: "ltr"
     languageName: "Português"
-    title: "∼{l4u}.blog"
+    title: "∼{l4u}.blog.br"
     menus:
       main:
         - identifier: categories
@@ -43,7 +44,7 @@ languages:
     params:
       homeInfoParams:
         Title: Olá 👋🏾, seja bem vindo!
-        Content: Eu sou Laudivan, carinhosamente chamado de Tio Lau. Se quiser saber mais um pouquinho sobre mim, registrei aqui muito da minha alma em crônicas, poesias, pensamentos e desenhos. Espero que goste. 🫶🏾
+        Content: Eu sou Laudivan, carinhosamente chamado de Tio Lau. Tenho registrado aqui muito da minha alma em crônicas, poesias, pensamentos e desenhos. Espero que goste. 🫶🏾
       subtitle: "Um lugar para meus pensamentos, realizações e mais..."
       keywords: ["blog", "PaperMod", "pensamentos", "reflexões", "crônicas"]
       dateFormat: "2 de Janeiro de 2006"
@@ -59,7 +60,7 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: "∼{l4u}.blog"
+  title: "∼{l4u}.blog.br"
   author: [ "∼{l4u}" ]
   # author: ["Me", "You"] # multiple authors
   # images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -92,7 +93,7 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "∼{l4u}.blog"
+    text: "∼{l4u}.blog.br"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
@@ -117,7 +118,7 @@ params:
 
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: ""
     bing:
       SiteVerificationTag: "XYZabc"
     yandex:
@@ -158,3 +159,4 @@ privacy:
   youTube:
     disable: false
     privacyEnhanced: true
+
