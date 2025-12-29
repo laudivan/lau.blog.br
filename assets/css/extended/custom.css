@@ -7,7 +7,28 @@
 } */
 
 /* (Optional) Define a different font for code blocks */
-code, pre {
+code,
+pre {
     font-family: monospace !important;
 }
 
+.home-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-info .entry-header {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background: url("/me.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.home-info .entry-content {
+    display: inline-flex;
+}

@@ -21,11 +21,15 @@ languages:
           url: /tags
     params:
       homeInfoParams:
-        Title: Hi there 👋🏾, welcome to my blog!
+        Title:
         Content: I am Laudivan, lovely called as Tio Lau (uncle Lau). I've recorded here must of my soul as chronicles, poetry, thoughts and draws. I hope you enjoy It! 🫶🏾
       subtitle: "A place for my thoughts, archievements and more..."
       keywords: ["blog", "PaperMod"]
       dateFormat: "January 2, 2006"
+      editPost:
+        URL: "https://github.com/tiol4u/.blog/blob/publish/content/en"
+        Text: "Propor alterações" # edit text
+        appendFilePath: true # to append file path to Edit link
   🇧🇷:
     disabled: false
     contentDir: "content/pt"
@@ -43,11 +47,15 @@ languages:
           url: /tags
     params:
       homeInfoParams:
-        Title: Olá 👋🏾, seja bem vindo!
+        Title:
         Content: Eu sou Laudivan, carinhosamente chamado de Tio Lau. Tenho registrado aqui muito da minha alma em crônicas, poesias, pensamentos e desenhos. Espero que goste. 🫶🏾
       subtitle: "Um lugar para meus pensamentos, realizações e mais..."
       keywords: ["blog", "PaperMod", "pensamentos", "reflexões", "crônicas"]
       dateFormat: "2 de Janeiro de 2006"
+      editPost:
+        URL: "https://github.com/tiol4u/.blog/blob/publish/content/pt"
+        Text: "Propor alterações" # edit text
+        appendFilePath: true # to append file path to Edit link
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -128,11 +136,6 @@ params:
     hidden: true # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
-
-  editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
