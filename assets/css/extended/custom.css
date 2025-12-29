@@ -1,0 +1,13 @@
+/* Import the font from Google Fonts */
+@import url("fonts.googleapis.com");
+
+/* Apply the font to the entire body */
+/* body {
+    font-family: 'Roboto', sans-serif !important;
+} */
+
+/* (Optional) Define a different font for code blocks */
+code, pre {
+    font-family: monospace !important;
+}
+

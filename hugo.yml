@@ -1,0 +1,160 @@
+baseURL: "https://tiolau.blog/"
+title: "∼{L4u}.blog"
+theme: "PaperMod"
+defaultContentLanguage: "🇧🇷"
+defaultContentLanguageInSubdir: true
+disableDefaultLanguageRedirect: false
+languages:
+  🇺🇸:
+    disabled: false
+    contentDir: "content/en"
+    languageCode: "en-US"
+    languageDirection: "ltr"
+    languageName: "English"
+    title: "∼{l4u}.blog"
+    menus:
+      main:
+        - name: Categories
+          url: /categories
+        - name: Tags
+          url: /tags
+    params:
+      homeInfoParams:
+        Title: Hi there 👋🏾, welcome to my blog!
+        Content: I am Laudivan, lovely called as Tio Lau (uncle Lau). If you wanna know a little bit about me I recorded here must of my soul as chronicles, poetry, thoughts and draws. I hope you enjoy It! 🫶🏾
+      subtitle: "A place for my thoughts, archievements and more..."
+      keywords: ["blog", "PaperMod"]
+      dateFormat: "January 2, 2006"
+  🇧🇷:
+    disabled: false
+    contentDir: "content/pt"
+    languageCode: "pt-BR"
+    languageDirection: "ltr"
+    languageName: "Português"
+    title: "∼{l4u}.blog"
+    menus:
+      main:
+        - identifier: categories
+          name: Categorias
+          url: /categories
+        - identifier: tags
+          name: Tags
+          url: /tags
+    params:
+      homeInfoParams:
+        Title: Olá 👋🏾, seja bem vindo!
+        Content: Eu sou Laudivan, carinhosamente chamado de Tio Lau. Se quiser saber mais um pouquinho sobre mim, registrei aqui muito da minha alma em crônicas, poesias, pensamentos e desenhos. Espero que goste. 🫶🏾
+      subtitle: "Um lugar para meus pensamentos, realizações e mais..."
+      keywords: ["blog", "PaperMod", "pensamentos", "reflexões", "crônicas"]
+      dateFormat: "2 de Janeiro de 2006"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: "∼{l4u}.blog"
+  author: [ "∼{l4u}" ]
+  # author: ["Me", "You"] # multiple authors
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "∼{l4u}.blog"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: ExampleSite
+    subtitle: "This is subtitle"
+    imageUrl: "<img location>"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/tiol4u"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  editPost:
+    URL: "https://github.com/<path_to_repo>/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
+
+privacy:
+  youTube:
+    disable: false
+    privacyEnhanced: true
