@@ -33,6 +33,16 @@ pre {
     text-indent: 2rem;
 }
 
+.post-header .breadcrumbs {
+    font-weight: 300;
+    font-size: 1.5rem !important;
+    margin-bottom: 1rem;
+}
+
+.post-header .breadcrumbs a {
+    font-size: 1.5rem !important;
+}
+
 .home-info {
     display: flex;
     align-items: center;

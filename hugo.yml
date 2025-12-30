@@ -99,16 +99,16 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.ico"
+    favicon32x32: "/favicon.ico"
+    apple_touch_icon: "/apple-touch-icon-512x512.png"
+    safari_pinned_tab: "/l4u.svg"
 
   label:
     text: "∼{l4u}.blog.br"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+#    icon: /apple-touch-icon-512x512.png
+#    iconHeight: 35
 
   # profile-mode
   profileMode:
