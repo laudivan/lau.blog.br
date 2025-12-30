@@ -1,15 +1,36 @@
-/* Import the font from Google Fonts */
-@import url("fonts.googleapis.com");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-/* Apply the font to the entire body */
-/* body {
-    font-family: 'Roboto', sans-serif !important;
-} */
+[data-theme="dark"] {
+    --theme: #000 !important;
+}
+
+body {
+    font-family: 'Lato', sans-serif !important;
+}
 
 /* (Optional) Define a different font for code blocks */
 code,
 pre {
     font-family: monospace !important;
+}
+
+.post-entry .entry-header {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.post-entry .entry-content {
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-align: justify;
+    text-indent: 2rem;
+}
+
+.post-single .post-content {
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: justify;
+    text-indent: 2rem;
 }
 
 .home-info {
@@ -32,6 +53,9 @@ pre {
 }
 
 .home-info .entry-content {
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
     display: inline-block;
     width: auto;
 }
