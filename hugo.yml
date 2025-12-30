@@ -4,7 +4,7 @@ theme: "PaperMod"
 defaultContentLanguage: "🇧🇷"
 defaultContentLanguageInSubdir: true
 disableDefaultLanguageRedirect: false
-# googleAnalytics: ""
+googleAnalytics: "G-MP0WQ14YRL"
 languages:
   🇺🇸:
     disabled: false
@@ -130,12 +130,10 @@ params:
     - name: matrix
       url: "https://matrix.to/#/@laudivan:fedora.im"
   analytics:
-    google:
-      SiteVerificationTag: ""
     bing:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "G-MP0WQ14YRL"
     yandex:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "f5a75c627a53006e"
 
   cover:
     hidden: true # hide everywhere but not in structured data
