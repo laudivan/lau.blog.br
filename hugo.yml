@@ -64,6 +64,9 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
+sitemap:
+  changeFreq: hourly
+
 minify:
   disableXML: true
   minifyOutput: true
