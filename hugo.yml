@@ -15,9 +15,11 @@ languages:
     title: "∼{l4u}.blog.br"
     menus:
       main:
-        - name: Categories
+        - identifier: categories
+          name: Categories
           url: /categories
-        - name: Tags
+        - identifier: tags
+          name: Tags
           url: /tags
     params:
       homeInfoParams:
@@ -125,6 +127,8 @@ params:
       url: "https://github.com/tiol4u"
     - name: mastodon
       url: "https://mastodon.social/@l4u"
+    - name: matrix
+      url: "https://matrix.to/#/@laudivan:fedora.im"
   analytics:
     google:
       SiteVerificationTag: ""
