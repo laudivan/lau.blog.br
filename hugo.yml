@@ -2,7 +2,7 @@ baseURL: "https://lau.blog.br/"
 title: "∼{L4u}.blog.br"
 theme: "PaperMod"
 defaultContentLanguage: "🇧🇷"
-defaultContentLanguageInSubdir: true
+defaultContentLanguageInSubdir: false
 disableDefaultLanguageRedirect: false
 googleAnalytics: "G-MP0WQ14YRL"
 languages:
