@@ -2,8 +2,13 @@
 title: "Depressão"
 author: "Laudivan Almeida"
 date: 2019-02-01T09:00:00-03:00
-tags: ["Poesia", "Saúde Mental", "Depressão", "Jogos de Palavras"]
-categories: ["Poemas"]
+tags: 
+- Poesia
+- Saúde Mental
+- Depressão
+- Jogos de Palavras
+categories: 
+- Poemas
 draft: false
 ---
 

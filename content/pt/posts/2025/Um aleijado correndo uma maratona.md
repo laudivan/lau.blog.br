@@ -5,6 +5,8 @@ title: 'Um aleijado correndo maratona'
 tags:
 - depressão
 - vontade
+categories:
+- Artigos
 ---
 É difícil explicar por que não consigo realizar certas coisas sob o efeito da montanha-russa da depressão. O comum é receber críticas como "como você perdeu essa oportunidade?!" ou conselhos motivacionais vazios do tipo "é só fazer força que você consegue".
 

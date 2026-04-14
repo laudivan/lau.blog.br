@@ -6,6 +6,8 @@ tags:
 - parditude
 - identidade
 - preconceito
+categories:
+- Artigos
 ---
 Entrei receioso na sala de heteroidentificação. Passara os meses que antecederam a esse momento conversando com todo mundo que pude: militantes políticos; profissionais do direito; até um sociólogo e uma antropóloga.  Precisava de ajuda para passar no concurso e estava disposto a reivindicar um direito, porém temia cometer uma injustiça. À frente três pessoas  avaliariam a minha declaração: uma senhora branca de olhar sereno e compassivo e um falar doce, quase maternal; um homem de meia idade de pele morena (semelhante à minha) de fenótipo negro característico; e uma mulher mais nova e com traços negros também marcantes. Foram auxiliados por uma moça que me atendeu e orientou, um rapaz filmava tudo e uma terceira pessoa anotava a ata. Todos me fitavam durante todo o processo. 
 

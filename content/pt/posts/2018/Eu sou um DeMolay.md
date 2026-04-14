@@ -2,8 +2,14 @@
 title: "Eu sou um DeMolay!!"
 author: "Laudivan Almeida"
 date: 2018-12-27T09:00:00-03:00
-tags: ["Ordem DeMolay", "Maçonaria", "Juventude", "Liderança", "Sonhos"]
-categories: ["Crônicas"]
+tags: 
+- Ordem DeMolay
+- Maçonaria
+- Juventude
+- Liderança
+- Sonhos
+categories: 
+- Crônicas
 draft: false
 ---
 

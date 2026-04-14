@@ -2,8 +2,14 @@
 title: "O Sonho de Ícaro"
 author: "Laudivan Almeida"
 date: 2019-02-08T09:00:00-03:00
-tags: ["Poesia", "Mitologia", "Ícaro", "Inspiração", "Empatia"]
-categories: ["Poemas"]
+tags: 
+- Poesia
+- Mitologia
+- Ícaro
+- Inspiração
+- Empatia
+categories: 
+- Poemas
 draft: false
 ---
 

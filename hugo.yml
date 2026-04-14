@@ -1,10 +1,13 @@
 baseURL: "https://lau.blog.br/"
 title: "∼{L4u}.blog.br"
-theme: "PaperMod"
+theme: "nightfall"
 defaultContentLanguage: "🇧🇷"
 defaultContentLanguageInSubdir: false
 disableDefaultLanguageRedirect: false
 googleAnalytics: "G-MP0WQ14YRL"
+taxonomies:
+  category: "categories"
+  tag: "tags"
 languages:
   🇺🇸:
     disabled: false
@@ -74,12 +77,19 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: "∼{l4u}.blog.br"
-  author: [ "∼{l4u}" ]
+  author: 
+    name: "∼{l4u}"
+    avatar: "/static/avatar.jpg"
+    avatarSize: "size-m"
+    email: "me@lau.blog.br"
+    avatarFirst: false
   # author: ["Me", "You"] # multiple authors
   # images: ["<link or path of image for opengraph, twitter-cards>"]
   defaultTheme: auto # dark, light
   disableThemeToggle: false
-
+  showMetadata: true
+  showAuthors: true
+  openLinksInNewTab: true
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true

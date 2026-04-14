@@ -6,6 +6,8 @@ tags:
 - digital
 - redes sociais
 - fake news
+categories: 
+- Poemas
 ---
 \
 Quando o _st@tus_ sobrepõe a *Autenticidade*
