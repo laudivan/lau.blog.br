@@ -29,8 +29,8 @@ languages:
       keywords: ["blog", "PaperMod"]
       dateFormat: "January 2, 2006"
       editPost:
-        URL: "https://github.com/tiol4u/.blog/blob/publish/content/en"
-        Text: "Propor alterações" # edit text
+        URL: "https://github.com/laudivan/lau.blog.br/blob/publish/content/en"
+        Text: "Comments" # edit text
         appendFilePath: true # to append file path to Edit link
   🇧🇷:
     disabled: false
@@ -55,8 +55,8 @@ languages:
       keywords: ["blog", "PaperMod", "pensamentos", "reflexões", "crônicas"]
       dateFormat: "2 de Janeiro de 2006"
       editPost:
-        URL: "https://github.com/tiol4u/.blog/blob/publish/content/pt"
-        Text: "Propor alterações" # edit text
+        URL: "https://github.com/laudivan/lau.blog.br/blob/publish/content/pt"
+        Text: "Comentários" # edit text
         appendFilePath: true # to append file path to Edit link
 
 enableRobotsTXT: true
@@ -90,7 +90,7 @@ params:
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
   showtoc: false
@@ -127,7 +127,7 @@ params:
 
   socialIcons:
     - name: github
-      url: "https://github.com/tiol4u"
+      url: "https://github.com/laudivan"
     - name: mastodon
       url: "https://mastodon.social/@l4u"
     - name: matrix
