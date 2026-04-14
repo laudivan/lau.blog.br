@@ -1,5 +1,5 @@
 ---
-date: '2026-04-14-01'
+date: '2026-04-14'
 draft: false
 title: 'Por um Mundo mais SOCIAL'
 tags:
