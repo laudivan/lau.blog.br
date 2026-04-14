@@ -1,6 +1,6 @@
 baseURL: "https://lau.blog.br/"
 title: "∼{L4u}.blog.br"
-theme: "nightfall"
+theme: "PaperMod"
 defaultContentLanguage: "🇧🇷"
 defaultContentLanguageInSubdir: false
 disableDefaultLanguageRedirect: false
