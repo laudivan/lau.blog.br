@@ -7,6 +7,7 @@ tags:
 - redes sociais
 - fake news
 ---
+\
 Quando o _st@tus_ sobrepõe a *Autenticidade*
 \
 O _filtr0_ eclipsa a *Beleza*
