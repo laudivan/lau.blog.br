@@ -10,22 +10,22 @@ categories:
 - Poemas
 ---
 \
-Quando o _st@tus_ sobrepõe a *Autenticidade*
+Quando o _st@tus_ sobrepõe a **INTEIREZA**
 \
-O _filtr0_ eclipsa a *Beleza*
+o _3ng@jament0_ corrompe o **REAL**
 \
-O _3ng@jament0_ corrompe a *Verdade*
+o _filtr0_ eclipsa a **BELEZA**
 \
-E o _ódi0_ substitui o *Social*
-\
-\
-A alma que anseia *Natureza*
-\
-Carente de *Vida*
-\
-Deseja o *ENCONTRO*
-\
-Porém sofre o _d1g¡t@l_.
+e o _ódi0_ desfaz o **SOCIAL**
 \
 \
-Por um Mundo menos digital e mais *SOCIAL* ✊🏾
+A alma que anseia o **NATURAL**
+\
+carente de **VIDA**
+\
+deseja o **ENCONTRO**
+\
+porém sofre o _**d1g¡t@l**_.
+\
+\
+Por um Mundo menos digital e mais **SOCIAL** ✊🏾
