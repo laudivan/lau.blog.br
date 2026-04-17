@@ -4,10 +4,10 @@ draft: false
 title: 'For a truly SOCIAL World'
 tags:
 - digital
-- redes sociais
+- social networks
 - fake news
 categories: 
-- Poemas
+- Poems
 ---
 \
 While st@tus overrides AUTHENTICITY
