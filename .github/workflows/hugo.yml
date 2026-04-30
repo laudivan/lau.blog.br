@@ -55,15 +55,16 @@ jobs:
           mv hugo-PaperMod-master themes/PaperMod
       - name: Creating Icons
         run: |
-          cp assets/svg/logo.svg icon.svg && \
-          convert -background none -resize 16x16 icon.svg favicon-16x16.ico && \
-          convert -background none -resize 32x32 icon.svg favicon.ico && \
+          mkdir ./static && \
+          cp ./assets/svg/logo.svg ./static/icon.svg && \
+          convert -background none -resize 16x16 ./assets/svg/logo.svg ./static/favicon-16x16.ico && \
+          convert -background none -resize 32x32 ./assets/svg/logo.svg ./static/favicon.ico && \
           for size in 16 32 48 64 128 256 512; do \
             convert -background none -resize ${size}x${size} \
               assets/svg/logo.svg \
-              icon_${size}x${size}.png ;\
+              ./static/icon_${size}x${size}.png ;\
           done && \
-          cp icon_512x512.png apple-touch-icon-512x512.png
+          cp ./static/icon_512x512.png ./static/apple-touch-icon-512x512.png
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
