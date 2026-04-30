@@ -39,6 +39,8 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: Install Dart Sass
         run: sudo snap install dart-sass
+      - name: Install ImageMagick
+        run: sudo snap install imagemagick
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -51,6 +53,17 @@ jobs:
           unzip tmp.zip && rm tmp.zip && \
           mkdir themes && \
           mv hugo-PaperMod-master themes/PaperMod
+      - name: Creating Icons
+        run: |
+          cp assets/svg/logo.svg icon.svg && \
+          convert -background none -resize 16x16 icon.svg favicon-16x16.ico && \
+          convert -background none -resize 32x32 icon.svg favicon.ico && \
+          for size in 16 32 48 64 128 256 512; do \
+            convert -background none -resize ${size}x${size} \
+              assets/svg/logo.svg \
+              icon_${size}x${size}.png ;\
+          done && \
+          cp icon_512x512.png apple-touch-icon-512x512.png
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
