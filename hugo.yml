@@ -77,12 +77,6 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: "∼{l4u}.blog.br"
-  author: 
-    name: "∼{l4u}"
-    avatar: "/static/avatar.jpg"
-    avatarSize: "size-m"
-    email: "me@lau.blog.br"
-    avatarFirst: false
   # author: ["Me", "You"] # multiple authors
   # images: ["<link or path of image for opengraph, twitter-cards>"]
   defaultTheme: auto # dark, light
@@ -114,7 +108,7 @@ params:
     favicon16x16: "/favicon-16x16.ico"
     favicon32x32: "/favicon.ico"
     apple_touch_icon: "/apple-touch-icon-512x512.png"
-    safari_pinned_tab: "/l4u.svg"
+    safari_pinned_tab: "/icon.svg"
 
   label:
     text: "∼{l4u}.blog.br"
