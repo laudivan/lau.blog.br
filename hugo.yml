@@ -14,7 +14,7 @@ languages:
     contentDir: "content/en"
     languageCode: "en-US"
     languageDirection: "ltr"
-    languageName: "English 🇺🇸"
+    languageName: "🇺🇸"
     title: "∼{l4u}.blog.br 🇺🇸"
     menus:
       main:
@@ -40,7 +40,7 @@ languages:
     contentDir: "content/pt"
     languageCode: "pt-BR"
     languageDirection: "ltr"
-    languageName: "Português 🇧🇷"
+    languageName: "🇧🇷"
     title: "∼{l4u}.blog.br 🇧🇷"
     menus:
       main:
