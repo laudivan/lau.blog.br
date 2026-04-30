@@ -25,6 +25,7 @@ languages:
           name: Tags
           url: /tags
     params:
+      title: "∼{l4u}.blog.br 🇺🇸"
       homeInfoParams:
         Title:
         Content: Hi! I'm Laudivan. I've been recording here must of my soul as chronicles, poetry, thoughts and draws. I hope you enjoy It! 🫶🏾
@@ -51,6 +52,7 @@ languages:
           name: Tags
           url: /tags
     params:
+      title: "∼{l4u}.blog.br 🇧🇷"
       homeInfoParams:
         Title:
         Content: Olá! Eu sou Laudivan (Tio Lau). Tenho registrado aqui muito da minha alma em crônicas, poesias, pensamentos e desenhos. Espero que goste. 🫶🏾
