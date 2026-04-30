@@ -40,7 +40,7 @@ jobs:
       - name: Install Dart Sass
         run: sudo snap install dart-sass
       - name: Install ImageMagick
-        run: sudo snap install imagemagick
+        run: sudo apt install imagemagick
       - name: Checkout
         uses: actions/checkout@v4
         with:
