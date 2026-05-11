@@ -45,15 +45,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: recursive
-      - name: Getting PaperMod theme
-        run: |
-          curl -sSL \
-            https://github.com/adityatelange/hugo-PaperMod/archive/master.zip \
-            --output tmp.zip && \
-          unzip tmp.zip && rm tmp.zip && \
-          mkdir themes && \
-          mv hugo-PaperMod-master themes/PaperMod
-      - name: Creating Icons
+     - name: Creating Icons
         run: |
           mkdir ./static && \
           cp ./assets/svg/logo.svg ./static/icon.svg && \

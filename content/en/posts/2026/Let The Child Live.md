@@ -4,7 +4,7 @@ date: '2026-05-011T18:54:12-03:00'
 draft: false
 tags:
 - tolerance
-- categories:
+categories:
 - Articles
 - Chronicles
 ---    
