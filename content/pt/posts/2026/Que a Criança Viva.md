@@ -1,5 +1,5 @@
 ---
-date: '2026-05-011T18:54:12-03:00'
+date: '2026-05-11T18:54:12-03:00'
 draft: false
 title: 'Que a criança viva!'
 tags:
