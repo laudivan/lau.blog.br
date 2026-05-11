@@ -43,9 +43,9 @@ jobs:
         run: sudo apt install imagemagick
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          submodules: recursive
-     - name: Creating Icons
+      - name: Adding Submodules
+        run: git submodule add -f --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+      - name: Creating Icons
         run: |
           mkdir ./static && \
           cp ./assets/svg/logo.svg ./static/icon.svg && \
