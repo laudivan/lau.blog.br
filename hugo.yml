@@ -175,4 +175,6 @@ privacy:
   youTube:
     disable: false
     privacyEnhanced: true
-
+services:
+  rss:
+    limit: 50
